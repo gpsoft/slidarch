@@ -1,0 +1,12 @@
+/* @theme slidarch */
+
+@import 'gaia';
+
+header,
+footer {
+	text-align: right;
+}
+
+ul {
+	font-size: smaller;
+}

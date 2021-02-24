@@ -1,11 +1,17 @@
 ---
 marp: true
-theme: gaia
+theme: slidarch
 header: 'Spring Sand'
 footer: '@gpsoft'
 page_number: true
+
+style:
+
 ---
-<!-- _class : lead invert -->
+<!--
+_header: ''
+_class : lead invert
+-->
 
 # Spring Sand <!-- fit -->
 
@@ -15,19 +21,17 @@ page_number: true
 
 ---
 
-## トピック
+## ネタ
 
+- インメモリDB(H2)、起動時のサンプルデータ投入
 - CRUD
-- 起動時にサンプルデータ投入
-- フォームログイン&Auth
-- バリデーション
-- ページング
+  - フォームバリデーション
+  - ページング(ページネーション)
+  - カスタムクエリー
+  - ファイルアップロード
+- 認証(フォームログイン)、認可(ロール)
 - ページレイアウト
-- ファイルアップロード
-- カスタムクエリー
-- エラーページ
-- テスト
-- パッケージング
-- プロファイルの使い分け
+- テスト(JUnit, Mockito)
+- パッケージング、プロファイルの使い分け
 - ロギング
 

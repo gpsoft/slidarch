@@ -3,10 +3,6 @@ marp: true
 theme: slidarch
 header: 'Spring Sand'
 footer: '@gpsoft'
-page_number: true
-
-style:
-
 ---
 <!--
 _header: ''
@@ -23,15 +19,17 @@ _class : lead invert
 
 ## ネタ
 
-- インメモリDB(H2)、起動時のサンプルデータ投入
+<!-- class: col-2 -->
+
+- DB: H2(インメモリ)、MySQL
+- HTMLテンプレート: Thymeleaf
 - CRUD
-  - フォームバリデーション
-  - ページング(ページネーション)
+  - バリデーションチェック
+  - ページネーション、検索、ソート
   - カスタムクエリー
   - ファイルアップロード
 - 認証(フォームログイン)、認可(ロール)
-- ページレイアウト
-- テスト(JUnit, Mockito)
+- テスト: JUnit、Mockito
+- ロギング: Logback
 - パッケージング、プロファイルの使い分け
-- ロギング
 

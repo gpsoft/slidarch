@@ -30,3 +30,8 @@ section.page-center > ul {
 section.page-col-2 > ul {
 	column-count: 2;
 }
+section.img-right-bottom > p > img {
+	position: absolute;
+	right: 3%;
+	bottom: 30%;
+}

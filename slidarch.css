@@ -7,6 +7,31 @@ footer {
 	text-align: right;
 }
 
+code {
+	border-radius: 2px;
+	padding: 0.1em 0.5em;
+	background-color: #e6e3d8;
+	color: #455a64;
+}
+section.invert code {
+	background-color: #6a7a7d;
+	color: #fff8e1;
+}
+
 ul {
 	font-size: smaller;
+	break-inside: avoid;
+}
+
+section.page-center > ul {
+	width: fit-content;
+	margin: 0 auto;
+}
+section.page-col-2 > ul {
+	column-count: 2;
+}
+section.img-right-bottom > p > img {
+	position: absolute;
+	right: 3%;
+	bottom: 30%;
 }

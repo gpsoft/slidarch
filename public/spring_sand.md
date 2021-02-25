@@ -4,22 +4,23 @@ theme: slidarch
 header: 'Spring Sand'
 footer: '@gpsoft'
 ---
+
 <!--
 _header: ''
-_class : lead invert
+_class : lead invert page-center
 -->
 
 # Spring Sand <!-- fit -->
 
 - Spring Bootの勉強
 - きほんの「き」
-- インクリメンタル
+- `https://github.com/gpsoft/spring_sand`
 
 ---
 
-## ネタ
+## 主な見どころ
 
-<!-- class: col-2 -->
+<!-- _class: page-col-2 -->
 
 - DB: H2(インメモリ)、MySQL
 - HTMLテンプレート: Thymeleaf
@@ -28,8 +29,10 @@ _class : lead invert
   - ページネーション、検索、ソート
   - カスタムクエリー
   - ファイルアップロード
-- 認証(フォームログイン)、認可(ロール)
+- 認証(フォームログイン)
+- 認可(ロール)
 - テスト: JUnit、Mockito
 - ロギング: Logback
-- パッケージング、プロファイルの使い分け
+- パッケージング
+- プロファイルの使い分け
 

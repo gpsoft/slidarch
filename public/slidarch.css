@@ -7,8 +7,26 @@ footer {
 	text-align: right;
 }
 
- ul {
-	/* font-size: smaller; */
+code {
+	border-radius: 2px;
+	padding: 0.1em 0.5em;
+	background-color: #e6e3d8;
+	color: #455a64;
+}
+section.invert code {
+	background-color: #6a7a7d;
+	color: #fff8e1;
+}
+
+ul {
+	font-size: smaller;
+	break-inside: avoid;
+}
+
+section.page-center > ul {
+	width: fit-content;
+	margin: 0 auto;
+}
+section.page-col-2 > ul {
 	column-count: 2;
-	column-width: 43%;
 }
